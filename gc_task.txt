@@ -1,0 +1,59 @@
+Microsoft Windows [Version 10.0.26100.3476]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\91812>cd..
+
+C:\Users>cd..
+
+C:\>cd Revature
+
+C:\Revature>cd https://github.com/sai7299/RevatureTasks
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Revature>git clone https://github.com/sai7299/RevatureTasks
+Cloning into 'RevatureTasks'...
+fatal: unable to access 'https://github.com/sai7299/RevatureTasks/': Could not resolve host: github.com
+
+C:\Revature>git init
+Reinitialized existing Git repository in C:/Revature/.git/
+
+C:\Revature>git clone https://github.com/sai7299/RevatureTasks
+Cloning into 'RevatureTasks'...
+fatal: unable to access 'https://github.com/sai7299/RevatureTasks/': Could not resolve host: github.com
+
+C:\Revature>git clone https://github.com/sai7299/RevatureTasks
+Cloning into 'RevatureTasks'...
+fatal: unable to access 'https://github.com/sai7299/RevatureTasks/': Could not resolve host: github.com
+
+C:\Revature>git clone https://github.com/sai7299/RevatureTasks
+Cloning into 'RevatureTasks'...
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 14 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (14/14), 534.79 KiB | 255.00 KiB/s, done.
+
+C:\Revature>cd revaturetasks
+
+C:\Revature\RevatureTasks>git pull
+Already up to date.
+
+C:\Revature\RevatureTasks>git add lc_task.docx
+
+C:\Revature\RevatureTasks>git commit -m "linux commands uploaded"
+[main dc14162] linux commands uploaded
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lc_task.docx
+
+C:\Revature\RevatureTasks>git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 247 bytes | 247.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/sai7299/RevatureTasks
+   f679c0e..dc14162  main -> main
+
+C:\Revature\RevatureTasks>
